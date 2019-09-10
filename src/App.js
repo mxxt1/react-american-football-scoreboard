@@ -4,13 +4,15 @@ import "./App.css";
 import BottomRow from "./BottomRow";
 
 function App() {
-  //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
+  //TODO: STEP 2 - Establish your application's state with some useState hooks.  You'll need one for the home score and another for the away score.
   
-  //slices of state
+  //slices of state (ie data)
   const [lionsScore, setLionsScore] = useState(0);
 
   const [tigersScore,setTigersScore] = useState(0);
 
+
+  //stretch
   const [timer, setTimer] = useState(0);
 
   useEffect(() => {
